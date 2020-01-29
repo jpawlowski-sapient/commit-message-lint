@@ -1,2 +1,2 @@
-PR_TITLE_REGEX: "(chore|feat|fix|break): GPE-[0-9]+\\s[A-Za-z0-9\\s]+"
-COMMIT_MESSAGE_REGEX: "(chore|feat|fix|break): GPE-[0-9]+\\s[A-Za-z0-9\\s]+"
+PR_TITLE_REGEX: /((?:[a-z][a-z]+))(\d{3})(:)([a-z0-9])/i
+COMMIT_MESSAGE_REGEX: /(#)(#)((?:[a-z][a-z]+))(\d{3})(:)([a-z0-9])/i
